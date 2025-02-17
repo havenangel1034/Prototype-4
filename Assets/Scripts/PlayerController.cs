@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
     {
         yield return new WaitForSeconds(7);
         hasPowerUp = false;
-        powerupIndicator.gameObject.SetActive(true);
+        powerupIndicator.gameObject.SetActive(false);
     }
 
     private float powerupStrength = 15.0f;
@@ -53,6 +53,7 @@ public class PlayerController : MonoBehaviour
 
             Debug.Log("Collided with " + collision.gameObject.name + " with powerup set to " + hasPowerUp);
             enemyRigidbody.AddForce(awayFromPlayer * powerupStrength, ForceMode.Impulse);
+            powerupIndicator.gameObject.SetActive(true);
         }
     }
 }

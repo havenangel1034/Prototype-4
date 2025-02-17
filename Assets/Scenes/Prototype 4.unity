@@ -233,6 +233,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 7537673817606777263, guid: e44af4ab705fe0442ba0ab64974112ef, type: 3}
+  enemyCount: 0
+  waveNumber: 1
+  powerupPrefab: {fileID: 3842620432384414422, guid: 5598141fae1794648ba8476e66a80ec1, type: 3}
 --- !u!4 &744956240
 Transform:
   m_ObjectHideFlags: 0
@@ -485,13 +488,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1211016355}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: -0.14827473, y: 0.08994722, z: 0.28391346, w: -0.94303626}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 166.786, y: -555.114, z: 6264.729}
 --- !u!114 &1211016358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -889,15 +892,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2549100431176863734, guid: 5598141fae1794648ba8476e66a80ec1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.857
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2549100431176863734, guid: 5598141fae1794648ba8476e66a80ec1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.124
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2549100431176863734, guid: 5598141fae1794648ba8476e66a80ec1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.827
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2549100431176863734, guid: 5598141fae1794648ba8476e66a80ec1, type: 3}
       propertyPath: m_LocalRotation.w
